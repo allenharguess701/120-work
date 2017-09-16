@@ -2,3 +2,9 @@ Name: Allen Harguess
 Date: September 16, 2017
 
 I added a new line to this file in my text editor!!!!
+
+I am adding in new comments below
+testing 123
+this is a test
+I tested this
+Should I test further
