@@ -7,7 +7,7 @@ Allen Harguess, 50
 
 ## Description of What the Original Code is Doing
 
-<!--
+
 
 These lines sets all of the variables used in the program
 var ball = {};
@@ -60,12 +60,11 @@ function mousePressed() {
 }
 
 
--->
 
 
 ## How did you alter the sketch?
 
-<!--
+
 
 * I added several variables to allow for more dynamics in the animation
 * I changed to canvas size to fit the window's width and height.
@@ -85,5 +84,3 @@ function mousePressed() {
   balls I controlled with the spotaxis.x & spotaxis.y variables. Finally I added
   an IF/ELSE statement to allow a direction change for the ball with each mouse
   click
-
--->
