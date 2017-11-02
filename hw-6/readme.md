@@ -20,4 +20,3 @@ set. This gives a more rapid and spontaneous look to the bubbles.
 I used the mousePressed and mouseDragged functions to allow for additional user
 control. The Opacity Gauge is controlled through the mouseDragged function, it
 allows for the up/down motion of a simple line.
-       
