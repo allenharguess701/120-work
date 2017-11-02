@@ -1,20 +1,23 @@
 Allen Harguess, 50
 
-[Live "Algorithmic " Sketch](https://allenharguess701.github.io/120-work/hw-6/)
+[Live "Algorithmic " Sketch](https://allenharguess701.github.io/120-work/hw-8/)
 
-So with this weeks assignment I did my best to incorporate all of the requirements
-in the end the program was relatively easy to put together and I found myself
-playing with the control parameter more than anything else.
+I used a single loop for the mouse driven bubbles with an array; (diams), of 7
+different diameter ellipses all placed within each other at the mouseX and MouseY intersection. This bubble trail consist of random blue colors which are all set
+to 90% opacity.
 
-I added several comment lines within this program to allow everyone to play with t he controls and get a feel for different renderings you can achieve.
+For the random bubbles I used a similar array; (diamstwo), to create a similar
+pattern, just smaller. Also a added in a diameter modifier; (targets.diacoef) to
+allow for a random diameter. axis.x and axis.y control the random location of
+bubble
 
-To create the visual I created a single snake using beginShape(). This allowed the
-individual ellipses to stay connected. I then used map() coupled with noise() to
-created the animation.
+The bubbles themselves are created using a for loop building each bubble from the
+individual diameters from the two arrays.
 
-I did this through he use of  x,y coordinate variables modified by a differential
-variable "diff" to create the Perlin Noise motion you see on the screen. I used other variables along with math function to set the shape, and color randomly.
+The random bubbles are in a nested loop creating a random number of bubbles per
+set. This gives a more rapid and spontaneous look to the bubbles.
 
-I didn't have any issues with the program other than my own typos which I quickly
-fixed. I think the biggest thing I learned with this exercise is the shear limitless
-possibilities you have using  this type of coding.
+I used the mousePressed and mouseDragged functions to allow for additional user
+control. The Opacity Gauge is controlled through the mouseDragged function, it
+allows for the up/down motion of a simple line.
+       

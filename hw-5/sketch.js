@@ -167,7 +167,7 @@ createCanvas(windowWidth, windowHeight);
 
 function draw() {
    background('rgba(0,0,0, 0.6)');
-
+   blendMode(LIGHTEST);
    //Draw and Animate Ball 1
    push();
      fill(b1col.r, b1col.g, b1col.b, 100);
