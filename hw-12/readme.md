@@ -1,6 +1,6 @@
 Allen Harguess, 50
 
-[Live "Algorithmic " Sketch](https://allenharguess701.github.io/120-work/hw-11/)
+[Live "Interactive" Sketch](https://allenharguess701.github.io/120-work/hw-12/)
 
 I created a particle system very similar to the one I created for HW-11.
 I added more slider bars controlling the X and Y Velocities, the balloon diameter,
